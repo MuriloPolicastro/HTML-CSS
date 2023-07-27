@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body{
+            background-color: aquamarine;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header{
+            padding: 5px;
+            background-color: white;
+        }
+
+        article{
+            margin-top: 5px;
+        }
+
+        a{
+            text-decoration: none;
+            margin-right: 15px;
+            color: rgb(10, 142, 151);
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+
+        article{
+            background-color: rgb(3, 83, 83);
+            color: white;
+            padding: 5px;
+        }
+
+        article > a{
+            color: white;
+        }
+
+        section{
+            background-color: white;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-bottom: 1px;
+            margin-top: 10px;
+            border-radius: 10px 30px;
+            box-shadow: 5px 7px 7px 0px rgba(0, 0, 0, 0.363);
+        }
+
+        .outras{
+            background-color: rgb(179, 228, 211);
+            margin: 5px;
+        }
+
+        .outras > h3 {
+            color: rgb(32, 90, 75);
+        }
+
+        footer{
+            text-align: center;
+            background-color: rgb(3, 83, 83);
+            color: white;
+            padding: 2px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+        </nav>
+    </header>
+    <main>
+        <article class="assuntos">
+            <a href="#">Esportes</a>
+            <a href="#">Saúde</a>
+            <a href="#">Economia</a>
+        </article>
+
+        <section id="noticias">
+            <h2>Noticias</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit alias dolor sed accusantium, enim sunt delectus? Natus odit atque ex aut reiciendis nobis sapiente. Consequuntur necessitatibus provident et praesentium quis.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nihil impedit, accusantium reiciendis harum expedita praesentium commodi! Aliquid quae aut iure voluptatibus, sed rerum natus! Commodi earum aliquam sapiente quisquam.
+            </p>
+            <aside class="outras">
+                <h3>Outras Noticias</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam harum vel voluptatem laboriosam tenetur expedita odit nam consequuntur quo. Nisi doloribus provident, nostrum magni suscipit iste quibusdam minus perspiciatis dolorum?</p>
+            </aside>
+        </section>
+        <section>
+            <h2>Economia</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore iusto dicta recusandae nobis dolore aspernatur distinctio provident in. Cum quod officiis quaerat quibusdam expedita in accusamus repellendus nemo? Amet, eius. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum reiciendis consectetur labore rerum molestiae, voluptatum illo sed. Fugiat at nostrum, blanditiis aliquid animi sapiente minima impedit officiis enim sint beatae.</p>
+        </section>
+    </main>
+    <footer>
+        Site produzido por MuriloPolicastro.
+    </footer>
+</body>
+</html>
