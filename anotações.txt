@@ -1,0 +1,22 @@
+INCONVENIENTES DO IFRAME
+    O mecanismo de busca do google pode nao conseguir ler
+o que está dentro do iframe.
+    Assim como programas de acessibilidades, para cegos por exemplo,
+tambem apresentam problemas para leitura do conteudo.
+    A segurança deve ser muito cuidada, pois havera um site dentro
+do outro, o que facilita para invasões.
+
+IFRAMES MAIS SEGUROS
+    Para evitar possiveis ataques ou roubo de dados dentro dos iframes
+existe uma tag que vai bloquear algumas funções que poderiam gerar riscos.
+
+<iframe ... sandbox="sandbox"> </iframe>
+
+    Alem do sandbox que deixa a segurança no maximo, é possivel alterar
+para que algumas funcionalidades sejam permitidas, exemplo "allow-forms"
+que permite formularios.
+
+    Tambem existe um tag que bloquea a captura de dados do usuario pelo
+iframe:
+
+<iframe ... referrerpolicy="no-referrer"> </iframe>
